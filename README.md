@@ -6,12 +6,14 @@ PC端微信防撤回
 
 ## 使用方法
 
-1. 在Release或Repo中找到自己微信版本的DLL文件，命名方式为WechatWin.<微信版本号><补丁版本号>.dll
+1. 在Release或Repo中找到自己微信版本的DLL文件，命名方式为WechatWin.<补丁版本号>.dll
 2. 修改DLL文件名为WeChatWin.dll, 即去除版本号
 3. 将这个DLL文件替换掉微信安装目录中的DLL文件，默认为
+
 ```
 C:\Program Files (x86)\Tencent\WeChat\[微信版本号]\WechatWin.dll
 ```
+
 4. Enjoy！
 
 ## 警告⚠
